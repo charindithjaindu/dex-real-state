@@ -7,7 +7,8 @@ body {
     background-attachment: fixed;
 }
 
-b, strong {
+b,
+strong {
     font-weight: 600;
 }
 
@@ -17,8 +18,8 @@ b, strong {
 }
 
 .nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .btn {
@@ -26,17 +27,17 @@ b, strong {
 }
 
 .btn-connect {
-    background: #248cff!important;
+    background: #248cff !important;
     border-color: #ffffff00;
-    color: #fff!important;
+    color: #fff !important;
     border-right: 4px solid #75b7ff;
     box-shadow: inset 0px 22px 10px -10px #f3ffc142;
 }
 
 .btn-connect2 {
-    background: none!important;
+    background: none !important;
     border-color: #6a6a6a;
-    color: #7fdd2f!important;
+    color: #7fdd2f !important;
     border-right: 4px solid #70cf1f;
 }
 
@@ -46,7 +47,8 @@ b, strong {
     margin-right: 5px;
 }
 
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
     border-color: #00000021;
 }
 
@@ -57,7 +59,7 @@ b, strong {
 
 .nav-tabs {
     border-bottom: none;
-    height: 55px;
+    height: 65px;
 }
 
 .nav>li>a {
@@ -79,7 +81,9 @@ b, strong {
     background: #00000000;
 }
 
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
     color: #fff;
     cursor: default;
     background-color: #ffffff00;
@@ -116,11 +120,13 @@ b, strong {
     text-decoration: none;
     background: #fbbc0a;
     box-shadow: inset 0px -70px 30px -30px #f7941d;
-    border-radius: 10px;
+    border-radius: 0px;
     font-weight: 900;
 }
 
-.abox:hover, .abox:active, .abox:focus {
+.abox:hover,
+.abox:active,
+.abox:focus {
     text-decoration: none;
     background-color: #faae11;
     color: #673800;
@@ -137,24 +143,24 @@ b, strong {
 }
 
 .rowtopmenu {
-    margin-top: 155px;
-    margin-right: 100px;
-    margin-left: 350px;
+    
+    margin-right: 200px;
+    margin-left: 426px;
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
-    
 }
 
 @media (max-width: 767px) {
     .abox .title_mini {
         display: block;
-        font-size: 5px;
+        font-size: 9px;
         margin-top: 0px;
     }
+
     .rowtopmenu {
         margin-top: 20px;
-        margin-right: 20px;
-        margin-left: 150px;
+        margin-right: -172px;
+        margin-left: 58px;
         border-radius: 10px 10px 0px 0px;
         overflow: hidden;
     }
@@ -198,7 +204,7 @@ b, strong {
     color: #ffffff;
     font-weight: 400;
     font-size: 20px;
-    padding: 8px 15px 8px 30px;
+
     display: inline-block;
     border-radius: 0px;
     margin-left: -30px;
@@ -242,12 +248,12 @@ b, strong {
 }
 
 th {
-    border-color: #0000005e!important;
+    border-color: #0000005e !important;
     font-weight: 600;
 }
 
 td {
-    border-color: #0000003b!important;
+    border-color: #0000003b !important;
 }
 
 .depobox {
@@ -268,12 +274,12 @@ td {
     display: block;
     width: 100%;
     border: none;
-    background: #fbbc0a!important;
+    background: #fbbc0a !important;
     box-shadow: inset 0px -50px 30px -30px #f7941d;
-    color: #673800!important;
+    color: #673800 !important;
     font-weight: 800;
     padding: 12px 0px;
-    margin-top: 20px!important;
+    margin-top: 20px !important;
     font-size: 16px;
 }
 
@@ -406,7 +412,7 @@ td {
 
 .sociallink {
     display: inline-block;
-    color: #fff!important;
+    color: #fff !important;
     font-size: 30px;
     text-shadow: 2px 2px 2px #0000008c;
     margin: 10px 15px;
