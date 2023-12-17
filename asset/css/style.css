@@ -112,7 +112,12 @@ strong {
 }
 
 .abox {
-    display: block;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     cursor: pointer;
     padding: 20px 0px;
     text-align: center;
@@ -122,6 +127,7 @@ strong {
     box-shadow: inset 0px -70px 30px -30px #f7941d;
     border-radius: 0px;
     font-weight: 900;
+    border-radius: 10px;
 }
 
 .abox:hover,
@@ -134,8 +140,8 @@ strong {
 
 .abox i {
     font-size: 36px;
-    margin: 8px 0px;
-    vertical-align: middle;
+    margin: 2px 0px;
+    
 }
 
 .abox .title_mini {
@@ -143,11 +149,13 @@ strong {
 }
 
 .rowtopmenu {
-    
-    margin-right: 200px;
-    margin-left: 426px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
+    
 }
 
 @media (max-width: 767px) {
@@ -159,8 +167,6 @@ strong {
 
     .rowtopmenu {
         margin-top: 20px;
-        margin-right: -172px;
-        margin-left: 58px;
         border-radius: 10px 10px 0px 0px;
         overflow: hidden;
     }
@@ -409,6 +415,9 @@ td {
     color: #f89d19;
     font-weight: 800;
 }
+
+
+
 
 .sociallink {
     display: inline-block;
