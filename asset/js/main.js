@@ -8,7 +8,7 @@ let token_symbol;
 let token_decimals;
 const delay = ms => new Promise(res => setTimeout(res, ms));
 const ethereumButton = document.querySelector('.enableEthereumButton');
-let start_day = "9/16/2023"; // m/d/y
+let start_day = "12/19/2023"; // m/d/y
 
 import {
     EthereumClient,
