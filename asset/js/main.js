@@ -67,19 +67,19 @@ $('.btn-deposit').click(function(){
     }
     if (plan == 0) {
         var amount = '3300000';
-        var textd = "Buy (0.33% $Metro)";
+        var textd = "Buy (0.33% $Utopi)";
     }
     if (plan == 1) {
         var amount = '5500000';
-      var textd = "Buy (0.55% $Metro)";
+      var textd = "Buy (0.55% $Utopi)";
     }
     if (plan == 2) {
         var amount = '8800000';
-      var textd = "Buy (0.88% $Metro)";
+      var textd = "Buy (0.88% $Utopi)";
     }
     if (plan == 3) {
         var amount = '13200000';
-      var textd = "Buy (1.32% $Metro)";
+      var textd = "Buy (1.32% $Utopi)";
     }
 
     deposit_user_1(ref,plan,amount).then($(this).html(textd));
@@ -141,7 +141,7 @@ async function getAccountDetails() {
         var accLast = address.slice(-3);
         ethereumButton.innerHTML = accFirst+'...'+accLast+" &nbsp;<i class='fa fa-power-off fa-fw'></i>";
         var reflink = document.getElementById('reflink');
-        reflink.setAttribute("value", 'https://app.metromax.pro/?ref='+address);
+        reflink.setAttribute("value", 'https://app.UtopiX.pro/?ref='+address);
         var allowance = await readContract({
           address: address_1,
           abi: abi_1,
