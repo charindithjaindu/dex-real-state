@@ -66,20 +66,20 @@ $('.btn-deposit').click(function(){
         ref = address;
     }
     if (plan == 0) {
-        var amount = '3300000';
-        var textd = "Buy (0.33% $UTOPIA)";
+        var amount = '1,000';
+        var textd = "Buy (1,000 $UTOPIA)";
     }
     if (plan == 1) {
-        var amount = '5500000';
-      var textd = "Buy (0.55% $UTOPIA)";
+      var amount = '2,000';
+      var textd = "Buy (2,000 $UTOPIA)";
     }
     if (plan == 2) {
-        var amount = '8800000';
-      var textd = "Buy (0.88% $UTOPIA)";
+      var amount = '3,000';
+      var textd = "Buy (3,000 $UTOPIA)";
     }
     if (plan == 3) {
-        var amount = '13200000';
-      var textd = "Buy (1.32% $UTOPIA)";
+      var amount = '5,000';
+      var textd = "Buy (5,000 $UTOPIA)";
     }
 
     deposit_user_1(ref,plan,amount).then($(this).html(textd));
